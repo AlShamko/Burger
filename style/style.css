@@ -251,3 +251,72 @@ body {
 .button.product-button span:first-child {
   margin-right: 10px;
 }
+
+.order {
+  background-image: url(../images/order_bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 180px;
+  overflow: hidden; /*обрезание контента*/
+}
+
+.order .container {
+  position: relative;
+}
+
+.order-image {
+  position: absolute;
+  top: 0;
+  right: calc(100% - 764px);
+}
+
+.order-form {
+  border-radius: 16px;
+  border: 1px solid #353535;
+  background: #211a16;
+  margin-top: 60px;
+  width: 426px;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  margin-left: 674px;
+}
+
+.order-form-text {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.order-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.order-form-input {
+  width: 344px;
+  height: 62px;
+  background: linear-gradient(95.61deg, #da8023 0%, #e28438 100%);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-form-input input {
+  padding: 16px 10px;
+  background: #211a16;
+  border-radius: 8px;
+  color: white;
+  width: 342px;
+  height: 60px;
+  box-sizing: border-box;
+  outline: none; /*подсветка элемента*/
+  border: 1px solid transparent;
+}
+
+.order-form-inputs .button {
+  width: 344px;
+  height: 62px;
+}
